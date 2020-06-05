@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#if __has_include(<IDOBluetoothInternal/IDOBluetoothInternal.h>)
-#elif __has_include(<IDOBlueUpdate/IDOBlueUpdate.h>)
+#if __has_include(<IDOBlueUpdate/IDOBlueUpdate.h>)
 #else
 #import "IDOUpdateEnum.h"
 #endif

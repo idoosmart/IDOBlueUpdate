@@ -33,13 +33,14 @@ Pod::Spec.new do |s|
   s.vendored_frameworks   = 'IDOBlueUpdate.framework'
 
   # 上传源文件
-  #  s.source_files = 'IDOBlueUpdate/Classes/**/*'
+  # s.source_files = 'IDOBlueUpdate/Classes/**/*'
   
   # s.resource_bundles = {
   #   'IDOBlueUpdate' => ['IDOBlueUpdate/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation', 'CoreBluetooth'
+    s.frameworks = 'UIKit', 'Foundation', 'CoreBluetooth'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency  'IDOBlueProtocol'
 end

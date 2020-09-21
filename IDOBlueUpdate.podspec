@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IDOBlueUpdate'
-  s.version          = '3.4.7'
+  s.version          = '3.4.8'
   s.summary          = 'support for nordic realtk apollo update SDK.'
 
 # This description is used to generate tags and improve search results.

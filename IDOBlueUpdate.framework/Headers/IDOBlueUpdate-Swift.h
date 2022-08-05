@@ -209,7 +209,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-typedef SWIFT_ENUM(NSInteger, DFUError, closed) {
+typedef SWIFT_ENUM(NSInteger, DFUError, open) {
   DFUErrorRemoteLegacyDFUSuccess = 1,
   DFUErrorRemoteLegacyDFUInvalidState = 2,
   DFUErrorRemoteLegacyDFUNotSupported = 3,
@@ -366,7 +366,7 @@ SWIFT_CLASS("_TtC13IDOBlueUpdate15DFUFirmwareSize")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(uint8_t, DFUFirmwareType, closed) {
+typedef SWIFT_ENUM(uint8_t, DFUFirmwareType, open) {
   DFUFirmwareTypeSoftdevice = 1,
   DFUFirmwareTypeBootloader = 2,
   DFUFirmwareTypeApplication = 4,
@@ -690,7 +690,7 @@ SWIFT_CLASS("_TtC13IDOBlueUpdate19DFUServiceInitiator")
 ///     aborted:         DFU Operation was aborted
 ///   </li>
 /// </ul>
-typedef SWIFT_ENUM(NSInteger, DFUState, closed) {
+typedef SWIFT_ENUM(NSInteger, DFUState, open) {
   DFUStateConnecting = 0,
   DFUStateStarting = 1,
   DFUStateEnablingDfuMode = 2,
@@ -739,7 +739,7 @@ SWIFT_CLASS("_TtC13IDOBlueUpdate25LegacyDFUServiceInitiator")
 - (nonnull instancetype)initWithCentralManager:(CBCentralManager * _Nonnull)centralManager target:(CBPeripheral * _Nonnull)target OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, LogLevel, closed) {
+typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
   LogLevelDebug = 0,
   LogLevelVerbose = 1,
   LogLevelInfo = 5,
@@ -984,7 +984,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-typedef SWIFT_ENUM(NSInteger, DFUError, closed) {
+typedef SWIFT_ENUM(NSInteger, DFUError, open) {
   DFUErrorRemoteLegacyDFUSuccess = 1,
   DFUErrorRemoteLegacyDFUInvalidState = 2,
   DFUErrorRemoteLegacyDFUNotSupported = 3,
@@ -1141,7 +1141,7 @@ SWIFT_CLASS("_TtC13IDOBlueUpdate15DFUFirmwareSize")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(uint8_t, DFUFirmwareType, closed) {
+typedef SWIFT_ENUM(uint8_t, DFUFirmwareType, open) {
   DFUFirmwareTypeSoftdevice = 1,
   DFUFirmwareTypeBootloader = 2,
   DFUFirmwareTypeApplication = 4,
@@ -1465,7 +1465,7 @@ SWIFT_CLASS("_TtC13IDOBlueUpdate19DFUServiceInitiator")
 ///     aborted:         DFU Operation was aborted
 ///   </li>
 /// </ul>
-typedef SWIFT_ENUM(NSInteger, DFUState, closed) {
+typedef SWIFT_ENUM(NSInteger, DFUState, open) {
   DFUStateConnecting = 0,
   DFUStateStarting = 1,
   DFUStateEnablingDfuMode = 2,
@@ -1514,7 +1514,7 @@ SWIFT_CLASS("_TtC13IDOBlueUpdate25LegacyDFUServiceInitiator")
 - (nonnull instancetype)initWithCentralManager:(CBCentralManager * _Nonnull)centralManager target:(CBPeripheral * _Nonnull)target OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, LogLevel, closed) {
+typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
   LogLevelDebug = 0,
   LogLevelVerbose = 1,
   LogLevelInfo = 5,

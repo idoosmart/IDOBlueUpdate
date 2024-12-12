@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IDOBlueUpdate'
-  s.version          = '3.6.24'
+  s.version          = '3.6.25'
   s.summary          = 'support for nordic realtk apollo update SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   
   # 上传framewrok
-  s.vendored_frameworks   = 'IDOBlueUpdate.framework'
+  s.vendored_frameworks   = 'IDOBlueUpdate.xcframework'
 
   # 上传源文件
   # s.source_files = 'IDOBlueUpdate/Classes/**/*'
